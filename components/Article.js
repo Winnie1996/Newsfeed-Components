@@ -86,6 +86,15 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: 'Absolute Legendary God Phenom',
+    date: '2020 the most ridiculous year ever',
+    firstParagraph: `Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie `,
+
+    secondParagraph: `Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie `,
+
+    thirdParagraph: `Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie Winnie `
   }
 ];
 
@@ -155,7 +164,10 @@ return parentDiv
 
 }
 
+//Step 4
 data.forEach(function(articleObj){
   const coolArticle = articleMaker(articleObj)
   document.querySelector(".articles").appendChild(coolArticle)
 })
+
+//Step 5
